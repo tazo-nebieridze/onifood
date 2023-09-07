@@ -1,0 +1,196 @@
+/* big tablets and 1200px */
+
+@media only screen and (max-width: 1200px){
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row{
+        padding: 0 2%;
+    }
+    .first{
+        padding: 0 2%;
+    }
+}
+
+/* small tablets to big tablets: from 768 px to 1023px */
+
+@media only screen and (max-width: 1023px){
+    body{
+        font-size: 16px;
+    }
+    section{
+        padding: 50px 0;
+    }
+    .long-copy{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .app-screen{
+        width: 50%;
+    }
+    .works-steps p{
+        font-size: 90%; 
+    }
+    .works-steps div{
+        height: 40px;
+        width: 40px;
+    }
+    .btn-app img{
+        height: 40px;
+        width: auto;
+    }
+    .section-cities {
+        font-size: 90%;
+    }
+    .icon-small{
+        width: 15px;
+    }
+    .plan-price{
+        font-size: 250%;
+    }
+    .plan-box div{
+        padding: 5px;
+    }
+
+}
+
+/* small phones to small tablets: from 480 px to 767px */
+
+@media only screen and (max-width: 767px){
+    body{
+        font-size: 14px;
+    }
+    section{
+        padding: 30px ;
+    }
+    .row, .hello-text-box{
+        padding: 0 4%;
+    } 
+    .main-nav{
+        display: none;
+    }
+    .first{
+        position: relative;
+    }
+    .mobile-nav-icon{
+        display: inline-block;
+        position: absolute;
+        top: 20%;
+        left: 85%;
+        font-size: 130%;
+    } 
+    .first{
+        justify-content: flex-start;
+    }
+    .main-nav{
+        flex-direction: column;
+        margin-top: 25px;
+        margin-left: 25px; 
+    }  
+    .main-nav li{
+        display: block;
+        margin: 7px 0;
+    }
+
+    .main-nav li a:link, .main-nav li a:visited{
+        font-size: 100%;
+        padding: 10px;
+        font-size: 100%;
+    }
+    .stick .main-nav{
+        margin-top: 10px;
+        margin-right: 370px;
+    }
+    
+    .stick .main-nav li{
+        margin-right: 5px;
+    }
+    .stick .mobile-nav-icon {
+        margin-top: -60px;
+    }
+    .stick .logo-black{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .stick .mobile-nav-icon-btn{
+        color: black;
+    }
+    .stick .mobile-nav-icon{
+        top: 90px;
+    }
+    .stick .main-nav ul li a:link,
+    .stick .main-nav ul li a:visited {
+        columns: #555;
+        padding: 15px 0;
+    }
+    
+    .col{
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    .long-copy{
+        width: 96%;
+        margin-left: 2%;
+    }
+    h1{font-size: 170%;}
+    h2{font-size: 140%;}
+    .step-box:first-child{
+        text-align: center;
+    }
+    .step-box:last-child{
+        margin-top: 35px;
+    }
+    blockquote{
+        margin-top: 15px;
+        padding: 1%;
+        font-size: 110%;
+    }
+    .contact-form{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .section-cities h3{
+        margin: 20px 20px 10px 0px;
+        font-size: 130%;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .footer:first-child ul{
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 15px;
+    }
+    .footer:last-child ul{
+        justify-content: center;
+        margin-left: 0;
+    }
+
+}
+
+/* small phones: from 0 px to 480px */
+
+@media only screen and (max-width: 480px){
+
+    section{
+        padding: 25px 0;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .first{
+        position: relative;
+    }
+    .mobile-nav-icon{
+        display: inline-block;
+        position: absolute; 
+        top: 20%;
+        left: 80%;
+        font-size: 130%;
+        color: black;
+    } 
+    
+}
